@@ -26,7 +26,7 @@
 
 ---
 
-## BOM
+## BOM DIY
 
 | Part | Purpose | Cost | Quantity | Total Cost | LCSC/JLCPCB Number | Link | 
 | --- | --- | --- | --- | --- | --- | --- |
