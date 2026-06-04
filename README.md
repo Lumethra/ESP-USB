@@ -1,4 +1,4 @@
-<img width="1407" height="769" alt="image" src="https://github.com/user-attachments/assets/61638e1a-289f-4237-b738-ba45863bde8f" /># ESP-USB
+# ESP-USB
 
 ## What is this? 
 
