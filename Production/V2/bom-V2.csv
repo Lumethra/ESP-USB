@@ -1,0 +1,25 @@
+Name,Designator,Footprint,Quantity,Value,Price,LCSC Part #,Purchase Link
+Capacitors 100nF,"C1, C2",0603,2,100nF,$0.0032,C14663,https://jlcpcb.com/partdetail/C14663
+Capacitors 4.7uF,"C9, C10",0603,2,4.7uF,$0.0110,C19666,https://jlcpcb.com/partdetail/C19666
+Capacitor 22uF,C3,0603,1,22uF,$0.0100,C59461,https://jlcpcb.com/partdetail/C59461
+Capacitors 10uF,"C4, C5",0603,2,10uF,$0.0100,C19702,https://jlcpcb.com/partdetail/C19702
+S2B-PH-SM4-TB,CN1,CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN,1,S2B-PH-SM4-TB,$0.2014,C295747,https://jlcpcb.com/partdetail/C295747
+SK6812,D1,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,1,SK6812,$0.1000,C5378720,https://jlcpcb.com/partdetail/C5378720
+SS14 Schottky Diodes,"D2, D3",D_SMA,2,D_Schottky,$0.0200,C2480,https://jlcpcb.com/partdetail/C2480
+Inductor 4.7uH,L1,0805,1,4.7uH,$0.0500,C395016,https://jlcpcb.com/partdetail/C395016
+FS8205A,Q1,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR,1,FS8205A_C2830320,$0.0470,C2830320,https://jlcpcb.com/partdetail/C2830320
+Resistors 5.1k,"R1, R4, R6, R13",0603,4,5.1k,$0.0016,C23186,https://jlcpcb.com/partdetail/C23186
+Resistors 1k,"R8, R9, R10",0603,3,1k,$0.0016,C21190,https://jlcpcb.com/partdetail/C21190
+Resistor 100k,R11,0603,1,100k,$0.0016,C25803,https://jlcpcb.com/partdetail/C25803
+Resistor 33k,R12,0603,1,33k,$0.0016,C4216,https://jlcpcb.com/partdetail/C4216
+Resistors 56k,"R2, R3",0603,2,56k,$0.0016,C23206,https://jlcpcb.com/partdetail/C23206
+Resistor 100,R7,0603,1,100,$0.0016,C22775,https://jlcpcb.com/partdetail/C22775
+RST Button,SW1,SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm,1,RST,$0.0500,C318884,https://jlcpcb.com/partdetail/C318884
+BOOT Button,SW2,SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm,1,BOOT,$0.0500,C318884,https://jlcpcb.com/partdetail/C318884
+ESP32-S3-WROOM-1,U1,WIRELM-SMD_ESP32-S3-WROOM-1,1,ESP32-S3-WROOM-1,$4.0000,C2913202,https://jlcpcb.com/partdetail/C2913202
+74LVC1G3157DW-7,"U2, U3",SOT-363-6_L2.2-W1.3-P0.65-LS2.1-BL,2,74LVC1G3157DW-7,$0.0500,C176651,https://jlcpcb.com/partdetail/C176651
+DW01A,U4,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL,1,DW01A_C351410,$0.0426,C351410,https://jlcpcb.com/partdetail/C351410
+MCP73831T-2ACI/OT,U5,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL,1,MCP73831T-2ACI/OT,$0.7585,C424093,https://jlcpcb.com/partdetail/C424093
+MT3608,U6,SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL,1,MT3608,$0.0667,C84817,https://jlcpcb.com/partdetail/C84817
+AMS1117-3.3,U7,SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR,1,AMS1117-3.3,$0.1120,C6186,https://jlcpcb.com/partdetail/C6186
+USB-C Connector,USB1,USB-C-SMD_TYPE-C-6PIN-2MD-073,1,TYPE-C 16PIN 2MD,$0.0740,C2765186,https://jlcpcb.com/partdetail/C2765186
