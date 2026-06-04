@@ -2,6 +2,8 @@
 
 ## What is this? 
 
+V1 and V2 are the same, exept the placements of the parts, V1 is smaller, but more expensive. V2 is bigger, but cheaper. 
+
 ### Features: 
 
 ---
