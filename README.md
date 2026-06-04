@@ -67,7 +67,7 @@
 | MT3608 |  | $0.0786 | 1 | $0.0786 | C84817 | https://jlcpcb.com/partdetail/C84817 |
 | AMS1117-3.3 |  | $0.2036 | 1 | $0.2036 | C6186 | https://jlcpcb.com/partdetail/C6186 |
 | USB-C Connector |  | $0.0741 | 1 | $0.0741 | C2765186 | https://jlcpcb.com/partdetail/C2765186 |
-| **Total** |  |  |  | **~$9.48** |  |  |
+| **Total** |  | **~$9.48**  |  | **~$9.48** <br> _+ PCBA cost_  |  |  |
 
 </details>
 
