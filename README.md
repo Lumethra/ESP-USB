@@ -2,17 +2,38 @@
 
 ## What is this? 
 
-V1 and V2 are the same, exept the placements of the parts, V1 is smaller, but more expensive. V2 is bigger, but cheaper. 
+This is a "wireless" USB-cable for USB devices. It can "wirelessify" (almost) any USB device with only 2 ESP32-S3's. It can be powered by 5V or even by a 3.7V LiPo battery on the senders side (the side with the USB device). I also features a minimal latency of 2ms, or sometimes even less!!!
 
 ### Features: 
+- send HID-Protocols wirelessly
+- pass the HID-Protocol to the PC with tinyusb
+- 1 USB-C
+- 1 Status-LED
+- 3.7V to 5V booster
+- 5V to 3.3V converter
+- LiPo battery charger and protector
+- 2 buttons, boot and reset
+- custom USB-C-CC-Pins-handling
 
 ---
 
 ## Why? 
 
+I got a new keyboard and wanted it to be wireless. It wasnt possible to do this from the firmware side, because it uses a rpi pico 2 as MCU and upgrading it to a rpi pico 2W wont do much because ZMK doesnt like the bluetooth feature of it. So I thought if it was possible to send the HID-reports, which the keyboard is sending constantly over 2.4Ghz, so the wifi bandwith. After some research I found out that the ESP32-S3 features USB-OTG, so it can read these reports and send them over ESP-Now, a custom "wifi" specifically for ESPs. This will reduce latency by alot. 
+
 --- 
 
 ## How?
+
+There are 2 ways of making this project. 1 DIY-version and 1 PCB-version. If you have 2 ESP32-S3-Wroom-1 Devboards, feel free to take the DIY road. 
+
+### DIY:
+
+To replicate this project with 2 ESP32-S3-Devkit-C's you simply just need to download the 2 firmwares, the senders and the recievers. The [ESP-IDF-extension](https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/index.html) for [VS-Code](https://code.visualstudio.com/) is also required to flash the firmware. Flashing the firmware is also really easy. After sucessfully installing the ESP-IDF-extension, open the firmware of the reciever by going to the top left and selecting file > open folder > and open the folder containing the reciever firmware. Then go to the bottom bar and select UART for the flash method, its the button with the small little star. We also need to specifiy the COM-port of the ESP. Finding that out is OS-specific, but there are also alot of tutorials for this. For the IDF-Target, select ESP32-S3, since thats out device. Now we are almost finished. The last step we need to take is building and flashing the firmware. We can archieve this by clicking the fire icon a bit more on the right. This will build and flash the firmware. Now repeat this exact precess with the sender and you will have a working ESP-USB-cable. 
+
+### PCB: 
+
+When deciding to use my custom PCB, which is smaller, we need to first order it. JLCPCB for example is a pretty good option. After having it in person, we need to connect it to our PC and hold the boot button while pressing the reset button once. After pressing the reset button we can release the boot button for now. This will set the ESP into download mode and we can flash it exactly like a ESP32-S3-Devkit-C. How this works is explained in the DIY-section above. After flashing both the reciever and the sender we need to decide on a way to power our sender (the one on the USB device side), because it needs to power our USB-device. There are 2 ways, one is connecting a LiPo battery and the other is using 2 of the 4 test pads. The LiPo battery is straight forward, but for the test pads you need 2 cables and a usb breakout board to power the pcb with 5V and GND. After all these steps you can have fun with your wireless usb cable then. 
 
 ---
 
@@ -20,12 +41,29 @@ V1 and V2 are the same, exept the placements of the parts, V1 is smaller, but mo
 
 | PCB V1 |
 | --- |
-| <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/Auth75/blob/main/Images/PCB-V1-Front.png" /> |
-| <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/Auth75/blob/main/Images/PCB-V1-Back.png" /> |
+| <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V1-Front.png" /> |
+| <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V1-Back.png" /> |
+
+| PCB V2 |
+| --- |
+| <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2-Front.png" /> |
+| <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2-Back.png" /> |
 
 ---
 
 ## PCB + Schematics
+
+| PCB V1 |
+| --- |
+| <img alt="ESP-USB PCB" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V1.png" /> |
+
+| PCB V2 |
+| --- |
+| <img alt="ESP-USB PCB" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2.png" /> |
+
+| Schematics |
+| --- |
+| <img alt="ESP-USB Schematics" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/ESP-USB-Schematics.png" /> |
 
 ---
 
@@ -77,6 +115,12 @@ V1 and V2 are the same, exept the placements of the parts, V1 is smaller, but mo
 
 ## Contribute
 
+Want to make it better? Found some bugs? Feel free to open a PR (pull request) and lets make the project better. ^_^
+> the libraries are all imported with [easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py)
+
 --- 
 
 ## Thank you
+
+huge thank you too all these persons helping me making this project possible, thank you helping me sanity check, thank you for all these support. 
+> Thank you, <3 u all ^_^
