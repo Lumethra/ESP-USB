@@ -31,9 +31,37 @@ There are 2 ways of making this project. 1 DIY-version and 1 PCB-version. If you
 
 To replicate this project with 2 ESP32-S3-Devkit-C's you simply just need to download the 2 firmwares, the senders and the recievers. The [ESP-IDF-extension](https://docs.espressif.com/projects/vscode-esp-idf-extension/en/latest/index.html) for [VS-Code](https://code.visualstudio.com/) is also required to flash the firmware. Flashing the firmware is also really easy. After sucessfully installing the ESP-IDF-extension, open the firmware of the reciever by going to the top left and selecting file > open folder > and open the folder containing the reciever firmware. Then go to the bottom bar and select UART for the flash method, its the button with the small little star. We also need to specifiy the COM-port of the ESP. Finding that out is OS-specific, but there are also alot of tutorials for this. For the IDF-Target, select ESP32-S3, since thats out device. Now we are almost finished. The last step we need to take is building and flashing the firmware. We can archieve this by clicking the fire icon a bit more on the right. This will build and flash the firmware. Now repeat this exact precess with the sender and you will have a working ESP-USB-cable. 
 
+<details>
+  <summary>
+    <h4>TL:DR</h4>
+  </summary> 
+
+  - download VS-Code and the ESP-IDF extension
+  - download the firmware
+  - open the folder with the firmware
+  - select UART for flash method
+  - select the COM-Port
+  - select ESP32-S3 as device
+  - press the small fire to build and flash
+  - repeat for 2nd device
+</details>
+
 ### PCB: 
 
 When deciding to use my custom PCB, which is smaller, we need to first order it. JLCPCB for example is a pretty good option. After having it in person, we need to connect it to our PC and hold the boot button while pressing the reset button once. After pressing the reset button we can release the boot button for now. This will set the ESP into download mode and we can flash it exactly like a ESP32-S3-Devkit-C. How this works is explained in the DIY-section above. After flashing both the reciever and the sender we need to decide on a way to power our sender (the one on the USB device side), because it needs to power our USB-device. There are 2 ways, one is connecting a LiPo battery and the other is using 2 of the 4 test pads. The LiPo battery is straight forward, but for the test pads you need 2 cables and a usb breakout board to power the pcb with 5V and GND. After all these steps you can have fun with your wireless usb cable then. 
+
+<details>
+  <summary>
+    <h4>TL:DR</h4>
+  </summary> 
+
+  - order PCB
+  - hold boot button
+  - press reset button while boot button is hold down
+  - release boot button
+  - flash firmware (look [here](https://github.com/Lumethra/ESP-USB/edit/main/README.md#tldr))
+  
+</details>
 
 ---
 
