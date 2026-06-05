@@ -33,7 +33,7 @@ To replicate this project with 2 ESP32-S3-Devkit-C's you simply just need to dow
 
 <details>
   <summary>
-    <h4>TL:DR</h4>
+    <h4>TL;DR</h4>
   </summary> 
 
   - download VS-Code and the ESP-IDF extension
@@ -52,7 +52,7 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
 
 <details>
   <summary>
-    <h4>TL:DR</h4>
+    <h4>TL;DR</h4>
   </summary> 
 
   - order PCB
