@@ -59,7 +59,7 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
   - hold boot button
   - press reset button while boot button is hold down
   - release boot button
-  - flash firmware (look [here](https://github.com/Lumethra/ESP-USB/blob/main/README.md#tldr))
+  - flash firmware (look [here](https://github.com/Lumethra/ESP-USB/blob/main/README.md#diy))
   
 </details>
 
