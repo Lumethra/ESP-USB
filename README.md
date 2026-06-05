@@ -95,9 +95,17 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
 
 ---
 
-## Zine
+<details>
+  <summary>
+    <h2>Zine</h2> 
+  </summary>
+
+| Zine |
+| --- |
+| <img alt="ESP-USB-Zine" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/zine.png" /> |
 
 ---
+</details>
 
 ## BOM DIY
 
