@@ -18,6 +18,11 @@ V1 and V2 are the same, exept the placements of the parts, V1 is smaller, but mo
 
 ## Renders
 
+| PCB V1 |
+| --- |
+| <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/Auth75/blob/main/Images/PCB-V1-Front.png" /> |
+| <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/Auth75/blob/main/Images/PCB-V1-Back.png" /> |
+
 ---
 
 ## PCB + Schematics
