@@ -65,6 +65,28 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
 
 ---
 
+### Version differences
+
+### V1:
+
+  - small and compact
+  - expensive for PCBA
+  - components are exact the same as V2
+
+### V2:
+
+  - slightly bigger than V1
+  - waaay cheaper
+  - components are exact the same as V1
+
+### V3:
+
+  - biggest
+  - adding USB-A-female connector
+  - cheaper LED to save cost
+
+---
+
 ## Renders
 
 | PCB V1 |
@@ -76,6 +98,11 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
 | --- |
 | <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2-Front.png" /> |
 | <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2-Back.png" /> |
+
+| PCB V3 |
+| --- |
+| <img alt="ESP-USB Front with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V3-Front.png" /> |
+| <img alt="ESP-USB Back with Components" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V3-Back.png" /> |
 
 ---
 
@@ -89,9 +116,17 @@ When deciding to use my custom PCB, which is smaller, we need to first order it.
 | --- |
 | <img alt="ESP-USB PCB" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V2.png" /> |
 
-| Schematics |
+| PCB V3 |
+| --- |
+| <img alt="ESP-USB PCB" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/PCB-V3.png" /> |
+
+| Schematics V1/V2 |
 | --- |
 | <img alt="ESP-USB Schematics" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/ESP-USB-Schematics.png" /> |
+
+| Schematics V3 |
+| --- |
+| <img alt="ESP-USB Schematics" src="https://github.com/Lumethra/ESP-USB/blob/main/Images/ESP-USB-V3-Schematics.png" /> |
 
 ---
 
